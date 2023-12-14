@@ -73,11 +73,11 @@ const ProjectSlider: React.FC = () => {
             >
               <p className="text-[--white] mt-16 mb-6">
                 <span className="text-[--orange]">&lt;</span>
-                {language === "BN" ? "Projekte" : "Projects"}
+                {language === "BN" ? "প্রজেক্ট" : "Projects"}
                 <span className="text-[--orange]">/&gt;</span>
               </p>
               <h2 className="text-[--white] mb-16">
-                {language === "BN" ? "Meine Projekte" : "My Projects"}
+                {language === "BN" ? "আমার প্রজেক্ট" : "My Projects"}
               </h2>
             </motion.div>
             <Swiper

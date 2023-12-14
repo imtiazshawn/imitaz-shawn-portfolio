@@ -172,7 +172,7 @@ export const projectsData = [
 
 export const liveTickerData = {
   content: {
-    bn: "Weitere Projekte auf Github",
+    bn: "আরো প্রজেক্ট দেখুন গিটহাবে",
     en: "More Projects on Github",
   },
 } as const;
@@ -337,12 +337,12 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    bn: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
+    bn: '"প্রথমবার ঠিক করাটা মোটেও গুরুত্বপূর্ণ নয়। শেষবার ঠিক করাটা খুবই গুরুত্বপূর্ণ।"',
     en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
     author: "Andrew Hunt",
   },
   {
-    bn: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
+    bn: '"ওয়েব একটি ক্যানভাসের মত, এবং কোড হল পেইন্ট। আপনার মাস্টারপিস তৈরি করুন."',
     en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
