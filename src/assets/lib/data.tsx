@@ -16,16 +16,15 @@ import sassscssicon from "../../assets/icons/sassicon.svg";
 import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
 import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
 import wordpressicon from "../../assets/icons/wordpressicon.svg";
 import shopifyicon from "../../assets/icons/shopifyicon.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import project01 from "../../assets/img/project01.png";
+import project02 from "../../assets/img/project02.png";
+import project03 from "../../assets/img/project03.png";
 import profilepicture from "../img/imtiaz_shawn.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
@@ -75,11 +74,11 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "Druuto.com",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Druuto.com: একটি মনোরম প্রতিক্রিয়া-চালিত PWA খাদ্য অর্ডারে বিপ্লব ঘটাচ্ছে। একটি নিরবচ্ছিন্ন ই-কমার্সের অভিজ্ঞতায় আনন্দিত হও আধুনিক ফ্লেয়ারের সাথে। এই নিমজ্জিত এবং ব্যবহারকারী-বান্ধব ওয়েব অ্যাপ্লিকেশনে আপনার স্বাদ কুঁড়ি উন্নত করুন৷",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "Druuto.com: A delectable React-powered PWA revolutionizing food ordering. Delight in a seamless e-commerce experience with a dash of modern flair. Elevate your taste buds in this immersive and user-friendly web application.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -87,13 +86,12 @@ export const projectsData = [
       { name: "REST Api", icon: apiicon },
       { name: "React", icon: reacticon },
       { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
       { name: "Netlify", icon: netlifyicon },
       { name: "Trello", icon: trelloicon },
     ],
-    image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    image: project01,
+    deploymenturl: "https://druuto.com/",
+    githuburl: "https://github.com/imtiazshawn",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -104,16 +102,15 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Moon Light Pharmacy",
     description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+      "মুন লাইট ফার্মেসি: কোড সহ একটি স্বাস্থ্যকর আগামীকাল তৈরি করা। এই প্রতিক্রিয়া-চালিত মেডিসিন ই-কমার্স সাইটটি বিকাশ করার জন্য আমার যাত্রায় ডুব দিন। একটি বর্ধিত অনলাইন ফার্মেসির অভিজ্ঞতার জন্য ব্যবহারকারী-বান্ধব ইন্টারফেস, মিশ্রিত প্রযুক্তি এবং স্বাস্থ্যসেবা সহ নির্বিঘ্নে প্রেসক্রিপশন অর্ডার করুন।",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "Moon Light Pharmacy: Crafting a healthier tomorrow with code. Dive into my journey developing this React-powered medicine e-commerce site. Seamlessly order prescriptions with a user-friendly interface, blending technology and healthcare for an enhanced online pharmacy experience.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
       { name: "React", icon: reacticon },
       { name: "JWT & Bcrypt", icon: jwticon },
       { name: "Axios", icon: axiosicon },
@@ -123,10 +120,10 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
       { name: "Render", icon: rendericon },
     ],
-    image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
+    image: project02,
+    deploymenturl: "https://www.arogga.com/",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/imtiazshawn",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -137,28 +134,28 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "CareMaster",
     description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+      "CareMaster: কোড দিয়ে লালনপালন। এই কেয়ার ম্যানেজমেন্ট প্রকল্পের সাথে আমার কোডিং যাত্রা শুরু করুন। নির্ভুলতার সাথে ডিজাইন করা এবং প্রতিক্রিয়া দ্বারা চালিত, এটি যত্নের প্রক্রিয়াগুলিকে স্ট্রীমলাইন করে, দক্ষ এবং সহানুভূতিশীল ব্যবস্থাপনা নিশ্চিত করে। স্বাস্থ্যসেবা সমাধানে প্রযুক্তি এবং সহানুভূতির সংমিশ্রণের অভিজ্ঞতা নিন।",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "CareMaster: Nurturing with Code. Embark on my coding journey with this Care Management Project. Designed with precision and powered by React, it streamlines care processes, ensuring efficient and compassionate management. Experience the fusion of technology and empathy in healthcare solutions.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "React", icon: reacticon },
+      { name: "TypeScript", icon: typescripticon },
       { name: "JWT & Bcrypt", icon: jwticon },
       { name: "Axios", icon: axiosicon },
       { name: "MongoDB", icon: mongodbicon },
       { name: "Express", icon: expressiconwhite },
       { name: "Node.js", icon: nodejsicon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
       { name: "Trello", icon: trelloicon },
     ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    image: project03,
+    deploymenturl: "https://www.care-planner.co.uk/",
+    githuburl: "https://github.com/imtiazshawn",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -348,27 +345,27 @@ export const quotesData = [
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "আমার সম্পর্কে",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "আমার সম্পর্কে কিছু কোড স্নিপেট",
   description_EN: "A few code snippets about me",
   paragraphs_DE: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "আমার হৃদয়ের সার্কিট",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "যখন আমি ডিজিটাল দুনিয়ায় থাকি না, তখন আমি প্রযুক্তি এবং হার্ডওয়্যারের আকর্ষণীয় জগতে ঘুরে বেড়াই। আমার জন্য, সার্কিট এবং সোল্ডার জয়েন্টগুলি একটি উত্তেজনাপূর্ণ অ্যাডভেঞ্চারের ধাঁধার টুকরোগুলির মতো।",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "জীবনের দ্রুত গলিতে",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "কোডিং ছাড়াও, আমি দ্রুত লেনের মধ্যে থাকতে পছন্দ করি - শব্দের সত্য অর্থে। গাড়ি আমার নেশা এবং আমি অজানা রাস্তায় উচ্চ-হর্সপাওয়ার মেশিন চালানো উপভোগ করি।",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "জীবনের মূলমন্ত্র হিসাবে আবিষ্কারের আনন্দ",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "একজন ওয়েব ডেভেলপার হিসেবে আমার যাত্রা আমার জীবনের পথের একটি অংশ মাত্র। আমি এই নীতিবাক্যে বাস করি যে অ্যাডভেঞ্চার তখনই শুরু হয় যখন আপনি পরিচিতদের পিছনে ফেলে যান। নতুন জায়গা আবিষ্কার করা আমার সৃজনশীল অনুপ্রেরণার ফর্ম।",
       icon: travelicon,
     },
   ],
@@ -396,23 +393,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    bn: "Kontakt",
+    bn: "যোগাযোগ",
     en: "Contact",
   },
   description: {
-    bn: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    bn: "আমার উদ্দেশ্য কিছু লিখুন, যা আমি রিপ্লাই করবো।",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        bn: "Dein Name",
+        bn: "আপনার নাম",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        bn: "Bitte gebe deinen Namen ein",
+        bn: "দয়া করে আপনার নাম লিখুন",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -420,12 +417,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        bn: "Deine E-Mail Adresse",
+        bn: "আপনার ইমেইল",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        bn: "Bitte gebe deine Email ein",
+        bn: "আপনার ইমেইল পূরণ করুন",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -433,12 +430,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        bn: "Deine Betreff",
+        bn: "বিষয়",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        bn: "Bitte gebe einen Betreff ein",
+        bn: "আপনার বিষয় লিখুন",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -446,20 +443,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      bn: "Deine Nachricht",
+      bn: "আপনার ম্যাসেজ",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      bn: "Bitte gebe deine Nachricht ein",
+      bn: "আপনার ম্যাসেজটি এখানে লিখুন",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      bn: "Absenden",
+      bn: "পাঠান",
       en: "Send",
     },
   },
@@ -472,11 +469,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      bn: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
+      bn: "আমি সম্মত যে, আমার ব্যক্তিগত তথ্য (নাম এবং ই-মেইল ঠিকানা) ব্যবহার করে আমার সাথে যোগাযোগ করতে পারে।",
       en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      bn: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+      bn: "এই অনুরোধ জমা দেওয়ার মাধ্যমে, আপনি নিশ্চিত করেন যে আপনি গোপনীয়তা নীতি পড়েছেন",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -484,7 +481,7 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    bn: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    bn: "🦄 লাইভ ডেমো শীঘ্রই খোলা হবে. সার্ভার শুরু হচ্ছে...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
@@ -492,11 +489,11 @@ export const toastMessages = {
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    bn: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    bn: "🦄 আপনার ইমেইল করার জন্য আপনাকে ধন্যবাদ. আমি যত তাড়াতাড়ি সম্ভব আপনার সাথে যোগাযোগ করব",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    bn: "Bitte gebe deinen Namen ein",
+    bn: "দয়া করে আপনার নাম লিখুন",
     en: "Please fill in your name",
   },
 } as const;
